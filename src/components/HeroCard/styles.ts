@@ -58,6 +58,10 @@ export const ImageWrapper = styled.div`
         transform: rotate(720deg);
       }
     }
+    img{
+      cursor: pointer;
+      
+    }
   `}
 `;
 
@@ -126,5 +130,6 @@ export const HeroName = styled.h3`
     color: ${theme.colors.black};
     text-transform: uppercase;
     z-index: 10;
+    cursor: pointer;
   `}
 `;

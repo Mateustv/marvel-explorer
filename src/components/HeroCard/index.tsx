@@ -52,6 +52,7 @@ const HeroCard = ({ heroId, heroName, heroThumbnail }: HeroCardProps) => {
           layout="fill"
           objectFit='cover'
           alt={heroName}
+
         />
       </S.ImageWrapper>
       <S.HeroContent>
