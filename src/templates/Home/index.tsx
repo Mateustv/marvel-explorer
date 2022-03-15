@@ -27,8 +27,8 @@ function HomeTemplete() {
           name: value,
         }
       })
-      setHeroes(data.results)
       console.log(data.results)
+      setHeroes(data.results)
     } catch (err: any) {
       console.log(err)
 

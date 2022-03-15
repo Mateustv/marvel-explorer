@@ -2,7 +2,7 @@ import { Favorite as FavoriteIcon } from '@styled-icons/material/Favorite';
 import { FavoriteBorder as FavoteBorderIcon } from '@styled-icons/material/FavoriteBorder';
 
 import * as S from './styles'
-import Image from 'next/image'
+import Image from 'next/image';
 import { HeroData, useFavoriteHeroes } from '../../hooks/useFavoriteHeroes';
 import { useRouter } from 'next/router';
 import { useCallback, useState } from 'react';
